@@ -1,0 +1,51 @@
+.welcomeScript {
+    text-align: center;
+}
+
+.v-align {
+    height: 730px;
+    display: flex;
+    align-items: center;
+}
+
+.projectScript {
+    text-align: center;
+}
+
+.projects {
+    margin-top: 100px;
+    margin-bottom: 25px; 
+}
+
+.project {
+    overflow: hidden;
+    max-height: 380px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgb(97, 12, 12);
+    background-clip: content-box;
+}
+
+.test:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
