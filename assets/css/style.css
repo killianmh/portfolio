@@ -33,34 +33,33 @@
     padding-left: 15px;
     padding-right: 15px;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: opacity 0.5s ease;
     background-color: rgb(97, 12, 12);
     background-clip: content-box;
+}
+
+.overlay-row {
+    height: 100%;
 }
 
 .proj-col:hover .overlay {
     opacity: 1;
 }
 
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .overlay-title {
     color: white;
     text-align: center;
+    font-size: 15px;
 }
 
 .overlay-description {
     color: white;
     text-align: center;
+    font-size: 15px;
 }
 
 .overlay-btn-row {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .overlay-btn {
@@ -68,10 +67,11 @@
     border-radius: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
     background: none;
-    transition-duration: 0.5s;
+    transition: all 0.5s ease;
+    font-size: 15px;
 }
 
 .overlay-btn:hover {
@@ -80,6 +80,8 @@
     cursor: pointer;
 }
 
-.overlay-btn-left {
-    margin-right: 20px;
+
+#k-override {
+    border-radius: none;
+    border: 5px solid rgba(132, 158, 17, 0.2);
 }
