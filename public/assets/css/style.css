@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.landing-page {
+    background-image: url("/assets/images/mountain.jpg");
+}
+
 .v-align {
     height: 730px;
     display: flex;
