@@ -60,10 +60,7 @@ app.get("/", function(req, res){
     .then(function(dbProject){
       console.log(dbProject);
       var hbsObject = {
-        name: dbProject[0].name,
-        description: dbProject[0].description,
-        technologies: dbProject[0].technologies,
-        imageURL: dbProject[0].imageURL
+        project: dbProject
       };
       console.log(hbsObject);
       res.render("index", hbsObject);
