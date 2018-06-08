@@ -38,9 +38,9 @@ mongoose.connect(MONGODB_URI);
 
 //Routes
 
-app.get("/", function(req, res) {
-    res.render("index");
-});
+// app.get("/", function(req, res) {
+//     res.render("index");
+// });
 
 app.get("/test", function(req, res) {
   db.Project.find({})
@@ -54,15 +54,15 @@ app.get("/test", function(req, res) {
 
 //Learn more button routes:
 
-app.get("/proj1", function(req, res){
+app.get("/", function(req, res){
   db.Project.find({"name": "Verse"})
     .then(function(dbProject){
       console.log(dbProject);
       var hbsObject = {
-        name: dbProject.name,
-        description: dbProject.description,
-        technologies: dbProject.technologies,
-        imageURL: dbProject.imageURL
+        name: dbProject[0].name,
+        description: dbProject[0].description,
+        technologies: dbProject[0].technologies,
+        imageURL: dbProject[0].imageURL
       };
       console.log(hbsObject);
       res.render("index", hbsObject);
