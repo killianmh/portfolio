@@ -25,12 +25,10 @@ app.set("view engine", "handlebars");
 // Set the port of our application
 // process.env.PORT lets the port be set by Heroku
 var PORT = process.env.PORT || 8080; 
-// ( process.env.PORT || )
 
 // If deployed, use the deployed database. Otherwise use the local portfolioDB database
-var MONGODB_URI = process.env.MONGODB_URI;
-// (process.env.MONGODB_URI || )
-// ("mongodb://localhost/portfolioDB")
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolioDB";
+// adding this will connect to local mongodb database if mlab cloud mongo database is unavailable: || "mongodb://localhost/portfolioDB"
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
