@@ -52,6 +52,22 @@ app.get("/test", function(req, res) {
     });
 });
 
+//Learn more button routes:
+
+app.get("/proj1", function(req, res){
+  db.Project.find({"name": "Verse"})
+    .then(function(dbProject){
+      var hbsObject = {
+        project: dbProject
+      };
+      console.log(hbsObject);
+      res.render("index", hbsObject);
+    })
+    .catch(function(err){
+      res.json(err);
+    })
+})
+
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
