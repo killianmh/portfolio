@@ -58,7 +58,10 @@ app.get("/proj1", function(req, res){
   db.Project.find({"name": "Verse"})
     .then(function(dbProject){
       var hbsObject = {
-        project: dbProject
+        name: dbProject.name,
+        description: dbProject.description,
+        technologies: dbProject.technologies,
+        imageURL: dbProject.imageURL
       };
       console.log(hbsObject);
       res.render("index", hbsObject);
