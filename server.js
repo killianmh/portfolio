@@ -57,6 +57,7 @@ app.get("/test", function(req, res) {
 app.get("/proj1", function(req, res){
   db.Project.find({"name": "Verse"})
     .then(function(dbProject){
+      console.log(dbProject);
       var hbsObject = {
         name: dbProject.name,
         description: dbProject.description,
