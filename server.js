@@ -56,7 +56,7 @@ app.get("/test", function(req, res) {
 //Populate all hidden modals with documents from mongoDB:
 
 app.get("/", function(req, res){
-  db.Project.find({"name": "Verse"})
+  db.Project.find({})
     .then(function(dbProject){
       console.log(dbProject);
       var hbsObject = {
