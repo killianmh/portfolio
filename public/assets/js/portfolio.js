@@ -6,9 +6,4 @@ $(function(){
         var dataBtn = $(this).attr("data-btn");
         $("#project-modal-" + dataBtn).modal();
     });
-
-    // $(".toggle-modal-2").on("click", function(){
-    //     // alert("you clicked the button");
-    //     $("#project-modal-Space-Adventure").modal();
-    // });
 })
