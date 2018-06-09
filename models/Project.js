@@ -5,6 +5,10 @@ var Schema = mongoose.Schema;
 
 //Create a ProjectSchema object using Mongoose Schema constructor
 var ProjectSchema = new Schema({
+    id: {
+        type: String,
+        unique: true
+    },    
     name: {
         type: String,
         unique: true
