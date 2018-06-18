@@ -19,7 +19,13 @@ var ProjectSchema = new Schema({
     technologies: {
         type: Array
     },
-    imageURL: {
+    slickImage1: {
+        type: String
+    },
+    slickImage2: {
+        type: String
+    },
+    slickImage3: {
         type: String
     }
 })
