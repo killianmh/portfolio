@@ -23,7 +23,7 @@
 
 .project {
     overflow: hidden;
-    max-height: 380px;
+    /* max-height: 380px; */
 }
 
 .overlay {
