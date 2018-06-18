@@ -6,4 +6,7 @@ $(function(){
         var dataBtn = $(this).attr("data-btn");
         $("#project-modal-" + dataBtn).modal();
     });
+
+    $('.img-slider').slick();
+
 })
