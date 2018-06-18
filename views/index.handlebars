@@ -10,22 +10,32 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <div class="img-slider">
-                        <img src="./assets/images/modal/modal-1/lion.jpg">
-                        <div><img src="{{slickImage1}}"></div>
-                        <div><img src="{{slickImage2}}"></div>
-                        <div><img src="{{slickImage3}}"></div>
-                      </div>
-                        <p>
-                          {{description}}
-                        </p>
-                        <ul>
-                            {{#each technologies}}
-                                <li>
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col img-slider">
+                            <div><img src="{{slickImage1}}"></div>
+                            <div><img src="{{slickImage2}}"></div>
+                            <div><img src="{{slickImage3}}"></div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="description">
+                            <p>
+                              {{description}}
+                            </p>
+                            <p>
+                              Technologies used:
+                              <ul>
+                                {{#each technologies}}
+                                  <li>
                                     {{this}}
-                                </li>
-                            {{/each}}
-                        </ul>
+                                  </li>
+                                {{/each}}
+                              </ul>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
