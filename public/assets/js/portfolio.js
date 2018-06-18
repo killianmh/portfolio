@@ -7,6 +7,6 @@ $(function(){
         $("#project-modal-" + dataBtn).modal();
     });
 
-    $('.img-slider').slick();
+    // $('.img-slider').slick();
 
 })
