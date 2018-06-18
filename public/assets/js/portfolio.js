@@ -8,6 +8,7 @@ $(function(){
     });
 
     $('.img-slider').slick({
+        arrows: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1
