@@ -26,6 +26,10 @@
     /* max-height: 380px; */
 }
 
+.proj-img {
+    max-height: 507px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
