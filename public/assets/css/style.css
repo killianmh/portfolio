@@ -4,6 +4,7 @@
 
 .landing-page {
     background-image: url("/assets/images/wood-grain.jpg");
+    background-size: cover;
 }
 
 .v-align {
