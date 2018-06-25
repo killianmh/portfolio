@@ -3,7 +3,7 @@
 }
 
 .landing-page {
-    background-image: url("/assets/images/mountain.jpg");
+    background-image: url("/assets/images/wood-graingit.jpg");
 }
 
 .v-align {
@@ -24,10 +24,6 @@
 .project {
     overflow: hidden;
     /* max-height: 380px; */
-}
-
-.proj-img {
-    max-height: 150px;
 }
 
 .overlay {
