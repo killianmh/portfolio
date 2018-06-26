@@ -1,3 +1,3 @@
-# portfolio
+# Matt Killian's Portfolio Website
 
-#Website is deployed on heroku: https://murmuring-atoll-18047.herokuapp.com/
+You can see the deployed site on Heroku [here] (https://murmuring-atoll-18047.herokuapp.com/)
