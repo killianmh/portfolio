@@ -1,3 +1,9 @@
+.navbar {
+    position: fixed;
+    height: 80px;
+    background-color: #073B4C;
+}
+
 .welcomeScript {
     text-align: center;
     font-family: 'Rubik', sans-serif;
