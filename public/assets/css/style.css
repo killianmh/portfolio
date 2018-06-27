@@ -2,9 +2,6 @@ html {
     font-size: 100%;
 }
 
-body {
-    background-color: #EADAA2;
-}
 
 .navbar {
     position: fixed;
@@ -13,7 +10,7 @@ body {
     z-index: 10;
 }
 
-.navbarName {
+#navbarName {
     color: #0F85AD;
 }
 
