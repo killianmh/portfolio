@@ -35,6 +35,9 @@ html {
 .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
+    height: 30px;
+    width: 30px;
+    display: block;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
