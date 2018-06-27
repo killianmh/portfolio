@@ -2,12 +2,21 @@
     position: fixed;
     height: 80px;
     background-color: #073B4C;
+    z-index: 10;
 }
 
-.welcomeScript {
+.welcome {
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    
+}
+
+.welcomeHello {
     font-size: 150px;
+}
+
+.welcomeDescription {
+    font-size: 40px;
 }
 
 .landing-page {
