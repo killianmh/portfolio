@@ -5,6 +5,10 @@
     z-index: 10;
 }
 
+.navbar-text {
+    color: #0F85AD;
+}
+
 .welcome {
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
