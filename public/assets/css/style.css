@@ -15,17 +15,17 @@ html {
 
 .welcome {
     text-align: center;
-    font-size: 8rem;
+    font-size: 10rem;
     font-family: 'Didact Gothic', sans-serif;
     color: #073B4C;
 }
 
 .welcomeHello {
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .welcomeDescription {
-    font-size: 0.75em;
+    font-size: 0.3em;
 }
 
 .landing-page {
