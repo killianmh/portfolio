@@ -8,11 +8,11 @@
 .welcome {
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    
+    color: #073B4C;
 }
 
 .welcomeHello {
-    font-size: 150px;
+    font-size: 180px;
 }
 
 .welcomeDescription {
