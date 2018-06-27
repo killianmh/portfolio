@@ -5,13 +5,16 @@ html {
 
 .navbar {
     position: fixed;
+    top: 0;
+    width: 100%;
     height: 80px;
     background-color: #073B4C;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
 #navbarName {
-    color: #0F85AD;
+    color: #A4B7BD;
 }
 
 .welcome {
