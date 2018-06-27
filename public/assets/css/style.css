@@ -1,5 +1,6 @@
 html {
     font-size: 100%;
+    background-color: #EADAA2;
 }
 
 .navbar {
@@ -9,7 +10,7 @@ html {
     z-index: 10;
 }
 
-.navbar-text {
+.nav-text {
     color: #0F85AD;
 }
 
