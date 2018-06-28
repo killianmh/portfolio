@@ -19,7 +19,7 @@ $(function(){
         if(this.hash !== ""){
             event.preventDefault();
             let hash = this.hash;
-            $('html, body').animate({scrollTop: $(hash).offset().top + 100}, 800, function() {
+            $('html, body').animate({scrollTop: $(hash).offset().top - 100}, 800, function() {
                 window.location.hash = hash;
             })
         }
