@@ -41,7 +41,7 @@ html {
 }
 
 .arrow {
-    border: solid black;
+    border: solid #073B4C;
     border-width: 0 3px 3px 0;
     height: 30px;
     width: 30px;
