@@ -14,6 +14,17 @@ $(function(){
         $("#project-modal-" + dataBtn).modal();
     });
 
+    $(".smoothScroll").on('click', function(event) {
+        //check if link has #
+        if(this.hash !== ""){
+            event.preventDefault();
+            let hash = this.hash;
+            $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function() {
+                window.location.hash = hash;
+            })
+        }
+    })
+
     
 
 })
