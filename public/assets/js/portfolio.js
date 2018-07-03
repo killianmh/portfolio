@@ -12,12 +12,28 @@ $(function(){
         if(this.hash !== ""){
             event.preventDefault();
             let hash = this.hash;
-            $('html, body').animate({scrollTop: ($(hash).offset().top - 100)}, 800, function() {
-                window.location.hash = hash;
-            })
+            scrollTo(document.documentElement, $(hash).offset().top, 600)
+            // $('html, body').animate({scrollTop: ($(hash).offset().top - 100)}, 800, function() {
+            //     window.location.hash = hash;
+            // })
         }
     })
 
+    function scrollTo(element, to, duration) {
+        if(duration <=0){
+            return
+        }
+        let difference = to - element.scrollTop;
+        let perTick = difference / duation * 10;
+
+        setTimeout(function(){
+            element.scrollTop = element.scrollTop + perTick;
+            if(element.scrollTop === to){
+                return
+            }
+            scrollTo(element, to, duration - 10)
+        }, 10);
+    }
     
 
 })
