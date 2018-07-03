@@ -34,6 +34,7 @@ html {
 
 .arrowRow1 {
     margin-top: -175px;
+    margin-bottom: 150px;
 }
 
 .arrowLink {
@@ -71,7 +72,6 @@ html {
 
 .projects {
     font-size: 10rem;
-    margin-top: 150px;
     margin-bottom: 25px; 
 }
 
