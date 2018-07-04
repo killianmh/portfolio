@@ -133,7 +133,7 @@ html {
 .overlay-title {
     color: #073B4C;
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .overlay-description {
@@ -156,6 +156,7 @@ html {
     background: none;
     transition: all 0.3s ease;
     font-size: 15px;
+    color: #073B4C;
 }
 
 .overlay-btn:hover {
