@@ -159,13 +159,13 @@ html {
     color: #073B4C;
 }
 
-.overlay-btn > a {
+/* .overlay-btn > a {
     color: #073B4C;
 }
 
 .overlay-btn > a:hover{
     color: #A4B7BD;
-}
+} */
 
 .overlay-btn:hover {
     background-color: #073B4C;
