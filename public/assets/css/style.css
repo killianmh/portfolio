@@ -103,6 +103,12 @@ html {
     height: 300px;
     width: 300px;
     position: relative;
+    margin-bottom: 2rem;
+}
+
+.proj-img {
+    height: 100%;
+    width: 100%;
 }
 
 .overlay {
