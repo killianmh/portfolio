@@ -86,7 +86,8 @@ html {
 }
 
 .proj-col {
-    height: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .overlay {
