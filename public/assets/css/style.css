@@ -118,7 +118,7 @@ html {
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
-    background-color: rgb(230, 230, 230);
+    background-color: #A4B7BD;
     background-clip: content-box;
 }
 
@@ -131,13 +131,13 @@ html {
 }
 
 .overlay-title {
-    color: white;
+    color: #073B4C;
     text-align: center;
     font-size: 15px;
 }
 
 .overlay-description {
-    color: white;
+    color: #073B4C;
     text-align: center;
     font-size: 15px;
 }
@@ -147,7 +147,7 @@ html {
 }
 
 .overlay-btn {
-    border: 3px solid black;
+    border: 3px solid #073B4C;
     border-radius: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -159,8 +159,8 @@ html {
 }
 
 .overlay-btn:hover {
-    background-color: black;
-    color: white;
+    background-color: #073B4C;
+    color: #A4B7BD;
     cursor: pointer;
 }
 
