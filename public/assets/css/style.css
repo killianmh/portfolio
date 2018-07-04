@@ -85,6 +85,10 @@ html {
     /* max-height: 380px; */
 }
 
+.proj-col {
+    height: 400px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
