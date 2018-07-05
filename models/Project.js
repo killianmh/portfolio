@@ -27,6 +27,9 @@ var ProjectSchema = new Schema({
     },
     carouselImage3: {
         type: String
+    },
+    url: {
+        type: String
     }
 })
 
