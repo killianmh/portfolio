@@ -67,16 +67,16 @@ html {
     align-items: center;
 }
 
-.projectScript {
+.sectionScript {
     text-align: center;
 }
 
-.projects {
+.section {
     font-size: 10rem;
     margin-bottom: 25px; 
 }
 
-.projectSectionTitle {
+.sectionTitle {
     font-size: 0.3em;
     color: #073B4C;
 }
@@ -178,6 +178,12 @@ html {
 
 .aboutMe {
     height: 200px;
+}
+
+.about-display {
+    height: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 @media (max-width: 900px){
