@@ -175,6 +175,10 @@ html {
     color: #073B4C;
 }
 
+.aboutMe {
+    height: 200px;
+}
+
 @media (max-width: 900px){
     html{font-size: 90%;}
 }
