@@ -58,10 +58,10 @@ html {
 .landing-page {
     background-image: url("/assets/images/wood-grain.jpg");
     background-size: cover;
+    height: 730px;
 }
 
 .v-align {
-    height: 730px;
     display: flex;
     align-items: center;
 }
