@@ -180,6 +180,11 @@ html {
     background-color: #E8F1F2; 
 }
 
+.aboutMeText {
+    color: #073B4C;
+    font-size: 20px;
+}
+
 .about-display {
     height: 100%;
     width: 90%;
