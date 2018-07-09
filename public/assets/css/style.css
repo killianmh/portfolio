@@ -191,6 +191,10 @@ html {
     background-color: #073B4C; 
 }
 
+.contactInfo {
+    color: #A4B7BD;
+}
+
 @media (max-width: 900px){
     html{font-size: 90%;}
 }
