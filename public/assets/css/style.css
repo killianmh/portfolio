@@ -53,10 +53,10 @@ html {
         transform: translateY(0);
       }
       40% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
       }
       60% {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
       }
 }
 
@@ -72,12 +72,6 @@ html {
     display: block;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    -webkit-transition: border 0.5s; /* Safari */
-    transition: border 0.5s;
-}
-
-.arrow:hover {
-    /* border: double #073B4C; */
 }
 
 .landing-page {

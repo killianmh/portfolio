@@ -32,7 +32,7 @@ $(function(){
                 return
             }
             scrollTo(element, to, duration - 10)
-        }, 10);
+        }, 5);
     }
     
 
