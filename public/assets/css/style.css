@@ -58,7 +58,7 @@ html {
     transition: height 0.5s;
 }
 
-.arrow: hover {
+.arrow:hover {
     height: 35px;
 }
 
