@@ -42,6 +42,24 @@ html {
     width: 50px;
 }
 
+.arrowLink:hover {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-3px);
+      }
+      60% {
+        transform: translateY(-1.5px);
+      }
+}
+
 .arrowRow2 {
     margin-top: -10px;
 }
