@@ -54,12 +54,12 @@ html {
     display: block;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    -webkit-transition: height 0.5s; /* Safari */
-    transition: height 0.5s;
+    -webkit-transition: border 0.5s; /* Safari */
+    transition: border 0.5s;
 }
 
 .arrow:hover {
-    height: 35px;
+    border: double #073B4C;
 }
 
 .landing-page {
