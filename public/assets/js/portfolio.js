@@ -24,7 +24,7 @@ $(function(){
             return
         }
         let difference = to - element.scrollTop;
-        let perTick = difference / duration * 5;
+        let perTick = difference / duration * 15;
 
         setTimeout(function(){
             element.scrollTop = element.scrollTop + perTick;
