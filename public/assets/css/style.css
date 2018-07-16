@@ -59,7 +59,7 @@ html {
 }
 
 .arrow:hover {
-    border: double #073B4C;
+    /* border: double #073B4C; */
 }
 
 .landing-page {
