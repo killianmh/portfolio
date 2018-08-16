@@ -1,7 +1,7 @@
 // 
 
 window.onload = function(){
-    $("body").style.display = "block";
+    $("#body").style.display = "block";
 
     $(".toggle-modal").on("click", function(){
         // alert("you clicked the button");
