@@ -1,5 +1,8 @@
 // 
 
+window.onload = function(){
+    $("body").style.display = "block";
+}   
 
 // Wait to attach our handlers until the DOM is fully loaded.
 $(function(){
@@ -37,9 +40,4 @@ $(function(){
             scrollTo(element, to, duration - 10)
         }, 8);
     }
-
-    window.onload = function(){
-        $("body").style.display = "block";
-    }   
-
 })
