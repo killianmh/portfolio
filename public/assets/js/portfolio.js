@@ -39,7 +39,7 @@ $(function(){
     }
 
     window.onload = function(){
-        $("#loadingDiv").style.display = "block";
+        $("body").style.display = "block";
     }   
 
 })
