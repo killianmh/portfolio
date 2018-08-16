@@ -1,14 +1,10 @@
 // 
-
-// Wait to attach our handlers until the DOM is fully loaded.
-$(function(){
-
     // Loading screen
     function whenReady(callback) {
         let intervalID = window.setInterval(checkReady, 1000);
 
         function checkReady(){
-            if (document.getElementsByTagName('img')[0].complete){
+            if (document.getElementsByTagName('img')[0].complete && document.getElementsByTagName('body')[0] !== undefined){
                 window.clearInterval(intervalID);
                 callback.call(this);
             }
@@ -23,6 +19,11 @@ $(function(){
         show('body', true);
         show('loading', false);
     });
+
+// Wait to attach our handlers until the DOM is fully loaded.
+$(function(){
+
+
     
     $(".toggle-modal").on("click", function(){
         // alert("you clicked the button");
