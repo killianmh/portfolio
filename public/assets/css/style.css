@@ -22,6 +22,10 @@ html {
     color: #A4B7BD;
 }
 
+#toggleBtn {
+    border-color: #A4B7BD;
+}
+
 .welcome {
     text-align: center;
     font-size: 10rem;
