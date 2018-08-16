@@ -37,15 +37,9 @@ $(function(){
             scrollTo(element, to, duration - 10)
         }, 8);
     }
-    
-    let loading = true;
-
-    while (loading){
-        $("#loadingDiv").style.visibility = "visible";
-    }
 
     window.onload = function(){
-        loading = false;
+        $("#loadingDiv").style.display = "block";
     }   
 
 })
