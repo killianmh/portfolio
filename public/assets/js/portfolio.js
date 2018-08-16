@@ -1,3 +1,14 @@
+// 
+let loading = true;
+
+while (loading){
+    $("#loadingDiv").style.visibility = "visible";
+}
+
+window.onload = function(){
+    loading = false;
+}
+
 // Wait to attach our handlers until the DOM is fully loaded.
 $(function(){
     
