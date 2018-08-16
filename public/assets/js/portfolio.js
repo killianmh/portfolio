@@ -1,34 +1,29 @@
-// 
+// Initialize global loading variable
 let loading = true;
-    // Loading screen
-    function whenReady(callback) {
-        let intervalID = window.setInterval(checkReady, 1000);
 
-        function checkReady(){
-            if (!loading){
-                window.clearInterval(intervalID);
-                callback.call(this);
-            }
+// Loading screen
+function whenReady(callback) {
+    let intervalID = window.setInterval(checkReady, 100);
+
+    function checkReady(){
+        if (!loading){
+            window.clearInterval(intervalID);
+            callback.call(this);
         }
-    };
+    }
+};
 
-    function show(id, value) {
-        document.getElementById(id).style.display = value ? 'block' : 'none';
-    };
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+};
 
-    whenReady(function(){
-        show('body', true);
-        show('loading', false);
-    });
-    
+whenReady(function(){
+    show('body', true);
+    show('loading', false);
+});
+
+// When all images are loaded, set loading variable to false and load content
 window.onload = function(){
-    loading = false;
-}
-// Wait to attach our handlers until the DOM is fully loaded.
-$(function(){
-
-
-    
     $(".toggle-modal").on("click", function(){
         // alert("you clicked the button");
         var dataBtn = $(this).attr("data-btn");
@@ -62,4 +57,12 @@ $(function(){
             scrollTo(element, to, duration - 10)
         }, 8);
     }
-})
+
+    loading = false;
+}
+
+// Attach our handlers when the DOM is fully loaded.
+// $(function(){
+
+    
+// })
