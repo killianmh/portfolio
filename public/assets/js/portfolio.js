@@ -1,8 +1,29 @@
 // 
 
-window.onload = function(){
-    $("#body").style.display = "block";
+// Wait to attach our handlers until the DOM is fully loaded.
+$(function(){
 
+    // Loading screen
+    function whenReady(callback) {
+        let intervalID = window.setInterval(checkReady, 1000);
+
+        function checkReady(){
+            if (document.getElementsByTagName('img')[0].complete){
+                window.clearInterval(intervalID);
+                callback.call(this);
+            }
+        }
+    };
+
+    function show(id, value) {
+        document.getElementById(id).style.display = value ? 'block' : 'none';
+    };
+
+    whenReady(function(){
+        show('body', true);
+        show('loading', false);
+    });
+    
     $(".toggle-modal").on("click", function(){
         // alert("you clicked the button");
         var dataBtn = $(this).attr("data-btn");
@@ -36,10 +57,4 @@ window.onload = function(){
             scrollTo(element, to, duration - 10)
         }, 8);
     }
-}   
-
-// Wait to attach our handlers until the DOM is fully loaded.
-// $(function(){
-    
-    
-// })
+})
