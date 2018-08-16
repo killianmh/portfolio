@@ -2,11 +2,7 @@
 
 window.onload = function(){
     $("body").style.display = "block";
-}   
 
-// Wait to attach our handlers until the DOM is fully loaded.
-$(function(){
-    
     $(".toggle-modal").on("click", function(){
         // alert("you clicked the button");
         var dataBtn = $(this).attr("data-btn");
@@ -40,4 +36,10 @@ $(function(){
             scrollTo(element, to, duration - 10)
         }, 8);
     }
-})
+}   
+
+// Wait to attach our handlers until the DOM is fully loaded.
+// $(function(){
+    
+    
+// })
