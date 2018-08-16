@@ -42,7 +42,7 @@ html {
     width: 50px;
 }
 
-.arrowLink:hover {
+.arrowLink {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
