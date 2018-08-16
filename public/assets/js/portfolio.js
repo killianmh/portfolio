@@ -1,10 +1,11 @@
 // 
+let loading = true;
     // Loading screen
     function whenReady(callback) {
         let intervalID = window.setInterval(checkReady, 1000);
 
         function checkReady(){
-            if (document.getElementsByTagName('img')[0].complete && document.getElementsByTagName('body')[0] !== undefined){
+            if (!loading){
                 window.clearInterval(intervalID);
                 callback.call(this);
             }
@@ -19,7 +20,10 @@
         show('body', true);
         show('loading', false);
     });
-
+    
+window.onload = function(){
+    loading = false;
+}
 // Wait to attach our handlers until the DOM is fully loaded.
 $(function(){
 
