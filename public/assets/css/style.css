@@ -12,7 +12,7 @@ html {
     margin: -60px 0 0 -60px;
     border: 16px solid;
     border-radius: 50%;
-    border-color: red grey grey;
+    border-color: #073B4C #A4B7BD #A4B7BD;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infintie;
 }
