@@ -70,5 +70,5 @@ window.onload = function(){
 
     // Set global loading variable to false after all handlers attached
     // this triggers functions in LOADING section code to display content
-    // loading = false;
+    loading = false;
 }
