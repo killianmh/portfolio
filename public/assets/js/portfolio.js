@@ -15,7 +15,6 @@ window.onload = function(){
         if(this.hash !== ""){
             event.preventDefault();
             let hash = this.hash;
-            console.log(hash)
             scrollTo(document.documentElement, $(hash).offset().top - 100, 600)
             // $('html, body').animate({scrollTop: ($(hash).offset().top - 100)}, 800, function() {
             //     window.location.hash = hash;
@@ -24,6 +23,9 @@ window.onload = function(){
     })
 
     function scrollTo(element, to, duration) {
+        console.log(element)
+        console.log(to)
+        console.log(duration)
         if(duration <=0){
             return
         }
