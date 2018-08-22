@@ -230,6 +230,10 @@ html {
     color: #073B4C;
 }
 
+#modal-carousel {
+    max-height: 400px;
+}
+
 .aboutMe {
     background-color: #E8F1F2; 
 }
