@@ -14,7 +14,7 @@ html {
     border-radius: 50%;
     border-color: #073B4C #A4B7BD #A4B7BD;
     -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infintie;
+    animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
