@@ -44,5 +44,5 @@ window.onload = function(){
     // Set global loading variable (defined in loading.js) to false after 
     // all DOM and images are loaded and handlers are attached. This 
     // triggers functions in loading.js code to display content
-    // loading = false;
+    loading = false;
 }
