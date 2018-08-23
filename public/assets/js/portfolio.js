@@ -13,6 +13,7 @@ window.onload = function(){
     $(".smoothScroll").on('click', function(event) {
         //check if link has #
         if(this.hash !== ""){
+            console.log("has hash")
             event.preventDefault();
             let hash = this.hash;
             scrollTo(document.documentElement, $(hash).offset().top - 100, 600)
@@ -23,9 +24,9 @@ window.onload = function(){
     })
 
     function scrollTo(element, to, duration) {
-        console.log(element)
-        console.log(to)
-        console.log(duration)
+        // console.log(element)
+        // console.log(to)
+        // console.log(duration)
         if(duration <=0){
             return
         }
