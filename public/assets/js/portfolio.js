@@ -24,9 +24,9 @@ window.onload = function(){
     })
 
     function scrollTo(element, to, duration) {
-        // console.log(element)
-        // console.log(to)
-        // console.log(duration)
+        console.log(element)
+        console.log(to)
+        console.log(duration)
         if(duration <=0){
             return
         }
