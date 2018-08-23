@@ -19,9 +19,7 @@ window.onload = function(){
             console.log(document.documentElement)
             console.log($(hash).offset().top - 100)
             // scrollTo(document.documentElement, $(hash).offset().top - 100, 600)
-            $('html, body').animate({scrollTop: ($(hash).offset().top - 100)}, 800, function() {
-                window.location.hash = hash;
-            })
+            $('html, body').animate({scrollTop: ($(hash).offset().top - 100)}, 800,)
         }
     })
 
